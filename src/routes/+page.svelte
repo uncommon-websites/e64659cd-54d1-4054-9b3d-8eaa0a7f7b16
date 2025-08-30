@@ -10,12 +10,20 @@
 </script>
 
 <Hero
-	title="Elevate your business with thoughtful design"
-	subtitle="Solutions that enhance user experience, and improve visual communication."
-	imageSrc="https://www.unc.mn/image-placeholder.svg"
-	generating
+	title="Transform health from reactive to predictive"
+	subtitle="Detect 1,000+ conditions years before symptoms appear through 100+ biomarkers analyzed by Stanford and Harvard medical experts."
+	imageSrc="https://images.unsplash.com/photo-1559757148-5c350d0d3c56?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1931&h=1087&q=80"
+	centered={false}
 />
-<LogoScroller label="" generating />
+<LogoScroller 
+	label="Trusted by health-conscious teams at"
+	logoUrls={[
+		'https://cdn.brandfetch.io/stripe.com/w/400/h/400/logo',
+		'https://cdn.brandfetch.io/notion.com/w/400/h/400/logo',
+		'https://cdn.brandfetch.io/spotify.com/w/400/h/400/logo',
+		'https://cdn.brandfetch.io/peloton.com/w/400/h/400/logo'
+	]}
+/>
 
 <Summary
 	generating
