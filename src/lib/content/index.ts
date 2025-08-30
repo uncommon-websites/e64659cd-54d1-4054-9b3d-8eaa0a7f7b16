@@ -1,7 +1,7 @@
 export const CONFIG = {
-	companyName: "Company",
-	description: "Description",
+	companyName: "Superpower",
+	description: "Transform health management from reactive to predictive by analyzing 100+ biomarkers annually to detect 1,000+ conditions years before symptoms appear.",
 	image: "/og.png",
-	url: "https://example.com",
+	url: "https://superpower.health",
 	fontFamily: "Inter Variable"
 };

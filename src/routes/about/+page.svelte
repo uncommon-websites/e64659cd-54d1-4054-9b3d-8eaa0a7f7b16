@@ -11,94 +11,93 @@
 	// Constants
 	const values = [
 		{
-			title: "Innovation",
-			description: "Constantly challenging the status quo to create better solutions."
+			title: "Prevention first",
+			description: "We believe your healthiest years should be ahead of you, not behind you. By detecting conditions years before symptoms appear, we transform health from reactive to predictive."
 		},
 		{
-			title: "Integrity",
-			description: "Building trust through transparent actions and honest communication."
+			title: "Medical excellence",
+			description: "Our Stanford, Harvard, and UCLA medical team brings world-class expertise to make advanced healthcare accessible to health-conscious professionals everywhere."
 		},
 		{
-			title: "Impact",
-			description: "Measuring our success by the positive change we create for our clients."
+			title: "Data-driven longevity",
+			description: "Through comprehensive biomarker analysis and biological age tracking, we empower members to optimize their health with precision and confidence."
 		}
 	];
 </script>
 
 <SecondaryHero
-	generating
-	title="Solving world hunger"
-	subtitle="one step at a time"
-	imageSrc="https://www.unc.mn/image-placeholder.svg"
+	title="Predict, prevent, thrive"
+	subtitle="We believe your healthiest years shouldn't be behind you—they should be ahead of you"
+	imageSrc="/mockups/dark-screen-1756550728937.png"
 />
 
 <!-- Story Section -->
 <Story
-	generating
 	paragraphs={[
-		"We started in 2018 with a simple goal: make helpful tech that people actually need. While many chase profits, we chose to do things differently.",
-		"Beyond making good products, we care about doing the right thing, being kind to our planet, and making sure everyone can use what we build. That's our compass.",
-		"From day one, we've asked ourselves: 'Does this actually help people?' This question gets us through tough calls and shapes who we are. We're playing the long game here.",
-		"We think about how our work affects real people's lives. We build tech that brings people together, keeps your information safe, and treats everyone fairly. When we stick to these basics, good things happen."
+		"We watched too many friends and family members discover serious health conditions too late. Despite eating well, exercising, and doing everything right, they were blindsided by diagnoses that could have been prevented with early detection. The traditional healthcare system, brilliant as it is, only springs into action after problems develop—leaving the most health-conscious among us feeling helpless about their future.",
+		"That's why we assembled a world-class team of longevity physicians from Stanford, Harvard, and UCLA to transform how we approach health. By combining cutting-edge medical expertise with advanced AI and comprehensive biomarker analysis, we created the world's first truly predictive health platform. What once required $100,000 visits to exclusive concierge clinics is now accessible to anyone who refuses to wait for symptoms to appear.",
+		"Today, Superpower empowers thousands of health-conscious professionals to take control of their biological destiny. Our members don't just know their cholesterol levels—they track their biological age, detect early signs of 1,000+ conditions, and receive personalized protocols to optimize their longevity. We're not just changing healthcare; we're giving people the power to add healthy years to their lives, turning the dream of disease prevention into daily reality."
 	]}
 />
 
 <!-- Our Culture Section -->
-<Culture {values} generating />
+<Culture {values} />
 
-<!-- StakeholderGrid Section -->
+<!-- Medical Advisory Team Section -->
 <StakeholderGrid
-	generating
 	stakeholderType="team"
-	title="Our team."
-	subtitle="Your partners in innovation."
+	title="World-class medical expertise."
+	subtitle="Leading physicians from Stanford, Harvard, and UCLA."
 	stakeholders={[
 		{
-			name: "Alex Morgan",
-			position: "Founder & CEO",
-			bio: "Started the company with a vision to transform the industry through innovative solutions.",
+			name: "Dr. Anant Vinjamoori",
+			position: "Chief Longevity Officer",
+			bio: "Harvard MD & MBA with expertise in preventive and personalized medicine.",
 			image: "https://www.unc.mn/image-placeholder.svg"
 		},
 		{
-			name: "Jamie Chen",
-			position: "Chief Design Officer",
-			bio: "Award-winning designer with a passion for creating intuitive and beautiful experiences.",
+			name: "Dr. Leigh Erin Connealy",
+			position: "Medical Advisor",
+			bio: "Clinician & Founder of The Centre for New Medicine, pioneer in integrative oncology.",
 			image: "https://www.unc.mn/image-placeholder.svg"
 		},
 		{
-			name: "Taylor Wright",
-			position: "Head of Engineering",
-			bio: "Technology enthusiast focused on building scalable systems that make a difference.",
+			name: "Dr. Molly Maloof",
+			position: "Longevity Physician",
+			bio: "Stanford Professor specializing in personalized medicine and health optimization.",
 			image: "https://www.unc.mn/image-placeholder.svg"
-		}
-	]}
-/>
-
-<StakeholderGrid
-	generating
-	stakeholderType="investor"
-	title="Backed by the best."
-	subtitle="Point Nine, TSIC and others"
-	stakeholders={[
-		{
-			name: "Point Nine Capital",
-			image: "https://cdn.brandfetch.io/pointnine.com/w/400/h/400/logo?c=1id_elLz2Bd5Ej-dWo7"
 		},
 		{
-			name: "TSIC Ventures",
-			image: "https://cdn.brandfetch.io/tiny.vc/w/400/h/400/logo?c=1a2b3c4d5e"
+			name: "Dr. Abe Malkin",
+			position: "Medical Director",
+			bio: "Founder and Medical Director of Concierge MD with expertise in preventive care.",
+			image: "https://www.unc.mn/image-placeholder.svg"
 		},
 		{
-			name: "Sequoia Capital",
-			image: "https://cdn.brandfetch.io/sequoiacap.com/w/400/h/400/logo"
+			name: "Dr. Robert Lufkin",
+			position: "Medical Advisor",
+			bio: "UCLA Medical Professor and NYT Bestselling Author in metabolic health.",
+			image: "https://www.unc.mn/image-placeholder.svg"
 		}
 	]}
 />
 
 <!-- CTA Section -->
 <CallToAction
-	generating
-	title="Ready to collaborate?"
-	subtitle="Let's create something amazing"
-	description="Join the companies already leveraging our expertise to transform their digital presence and achieve their business goals."
+	title="Your healthiest years are ahead of you"
+	subtitle="Start your health journey today"
+	description="Join thousands of health-conscious professionals who've discovered their biological age, detected early health risks, and optimized their longevity with our world-class medical team."
+	imageSrc="https://www.unc.mn/image-placeholder.svg"
+	callsToAction={[
+		{
+			href: "/",
+			label: "Get your health analysis",
+			variant: "primary"
+		},
+		{
+			href: "/about",
+			label: "Meet our medical team",
+			variant: "secondary"
+		}
+	]}
 />
